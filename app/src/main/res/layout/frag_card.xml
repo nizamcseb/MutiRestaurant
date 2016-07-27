@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" android:background="@color/white">
+
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card"
+        android:textSize="20dp"
+        android:id="@+id/textView4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay"
+        android:id="@+id/button" />-->
+    <RadioGroup
+        android:id="@+id/radiocards"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center" android:background="@color/white"
+        android:layout_height="wrap_content" android:padding="10dp"  android:checked="false">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credit Cards"
+            android:id="@+id/rtbtncre" android:textColor="@color/black"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Debit Cards"
+            android:id="@+id/rtbtdeb" android:textColor="@color/black"
+            />
+    </RadioGroup>
+</LinearLayout>

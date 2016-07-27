@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"  >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true" android:id="@+id/linear1"
+        android:layout_centerHorizontal="true" android:layout_marginTop="17dp">
+
+        <ImageView
+            android:id="@+id/img_prod"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/ic_delete" android:visibility="gone"/>
+        <TextView
+            android:id="@+id/tv_ProdName" android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp" android:textSize="15dp"
+            android:text="Product Name" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:layout_below="@+id/linear1"
+        android:layout_alignParentTop="true" android:id="@+id/linear2"
+        android:layout_centerHorizontal="true" android:layout_marginTop="55dp">
+
+        <TextView
+            android:id="@+id/tv_ProdPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="15dp" android:layout_marginLeft="70dp"
+            android:layout_marginTop="0dp"
+
+            android:text="Rs.100"
+            />
+
+         <Button
+               style="?android:attr/buttonStyleSmall"
+               android:layout_width="wrap_content" android:textSize="20dp" android:textColor="#000000"
+               android:layout_height="wrap_content" android:layout_marginLeft="50dp"
+               android:text="-" android:focusable="false" android:focusableInTouchMode="false"
+               android:id="@+id/btnminus" android:background="@drawable/round_button"
+               android:layout_marginBottom="1dp" android:layout_marginRight="10dp"  />
+
+
+           <TextView
+               android:id="@+id/tv_quantity"
+               android:layout_width="30dp"
+               android:layout_height="30dp" android:textSize="20dp"
+               android:text="1" android:layout_marginLeft="6dp"
+               android:textColor="@color/black" android:layout_marginBottom="1dp"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+" android:focusable="false" android:textSize="20dp" android:textColor="#000000"
+            android:id="@+id/btnplus" android:background="@drawable/round_button" android:focusableInTouchMode="false"
+            android:layout_marginRight="10dp" android:layout_marginBottom="20dp" android:layout_marginLeft="3dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

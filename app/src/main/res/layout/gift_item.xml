@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="250dp"
+    android:layout_gravity="center"
+
+    android:gravity="center"
+    android:background="#fff"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ems="50"
+            android:textStyle="bold"
+            android:text="hangs"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+        android:id="@+id/iv_gc_item"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:src="@drawable/gc_foryou"
+        />
+
+
+    <Button
+        android:id="@+id/clickbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:text="Select"
+        />
+    </LinearLayout>
+</LinearLayout>

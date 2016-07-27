@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:gravity="left|center" android:orientation="vertical"
+	android:layout_width="match_parent" android:padding="5dp" >
+	<RelativeLayout android:orientation="horizontal" android:id="@+id/mainlayout"
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent" android:padding="10dp">
+ 
+
+ 
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:textColor="#000000" android:textSize="14dp"
+        
+ />
+ 
+
+ 
+    <TextView
+        android:id="@+id/rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000" android:textSize="14dp"
+        android:layout_alignParentRight="true"
+        />
+ 
+
+ 
+</RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" android:padding="10dp">
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:id="@+id/myorderlist"
+            android:dividerHeight="1dp"
+            android:divider="#b5b5b5" android:layout_marginBottom="15dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:padding="10dp"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_marginLeft="170dp"
+                android:text="Total" android:textColor="@color/black"
+                android:id="@+id/tv_total" android:layout_marginBottom="3dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Payment Mode" android:textColor="@color/black"
+                android:id="@+id/tv_mode" android:layout_marginBottom="3dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EstimateTime : 53Mins" android:textColor="@color/black"
+                android:id="@+id/tv_estime" android:layout_marginBottom="3dp"   />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Driver Name :Syed" android:textColor="@color/black"
+                android:id="@+id/tv_drivername" android:layout_marginBottom="3dp"   />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Driver Phone :8080808080" android:textColor="@color/black"
+                android:id="@+id/tv_deriverph" android:layout_marginBottom="3dp"   />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

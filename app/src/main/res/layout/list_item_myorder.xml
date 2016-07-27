@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:padding="10dp" >
+    <LinearLayout
+        android:orientation="horizontal" android:id="@+id/li1"
+        android:layout_width="wrap_content" android:padding="10dp"
+        android:layout_height="wrap_content"  >
+
+        <TextView
+            android:layout_width="wrap_content" android:gravity="left"
+            android:layout_height="wrap_content" android:layout_gravity="center"
+            android:text="Order Id      : " android:textColor="@color/black"
+            android:id="@+id/tv_order" />
+        <TextView
+            android:layout_width="wrap_content" android:layout_gravity="center"
+            android:layout_height="wrap_content" android:layout_marginLeft="20dp"
+            android:text="New Text" android:textColor="#000000"
+            android:id="@+id/tv_orderid" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content" android:layout_gravity="left"
+            android:layout_height="wrap_content"
+            android:text="Order Date :" android:textColor="@color/black"
+            android:id="@+id/tv_orderda" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="20dp"
+            android:text="23/12/15" android:textColor="#000000"
+            android:id="@+id/tv_orderdate"     />
+
+    </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content" android:layout_gravity="left"
+                android:layout_height="wrap_content"
+                android:text="Status         :" android:textColor="@color/black"
+                android:id="@+id/tv_ordersta" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_marginLeft="20dp"
+                android:text="Conf" android:textColor="#000000"
+                android:id="@+id/tv_orderstatus"     />
+
+        </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>

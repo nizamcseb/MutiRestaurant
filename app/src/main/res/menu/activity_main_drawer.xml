@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home" android:icon="@mipmap/ic_home"
+            android:title="Home" />
+        <item android:id="@+id/nav_order" android:icon="@mipmap/ic_cart"
+            android:title="My Order" />
+       <!-- <item android:id="@+id/nav_share" android:icon="@mipmap/ic_trackmyorder"
+            android:title="Track My Order" />
+        <item android:id="@+id/nav_notification" android:icon="@mipmap/ic_notification"
+            android:title="Notification" />
+
+
+      -->
+        <item
+            android:id="@+id/nav_Reservation"
+            android:icon="@drawable/ic_menu_restaurant"
+            android:title="@string/action_reserv"/>
+
+        <item
+            android:id="@+id/nav_Rewards"
+            android:icon="@drawable/ic_menu_rewards"
+            android:title="@string/action_rewards"/>
+
+        <item
+            android:id="@+id/nav_GiftCards"
+            android:icon="@drawable/ic_menu_gift"
+            android:title="@string/action_giftcards"/>
+        <item android:id="@+id/nav_profile" android:icon="@mipmap/ic_profile"
+            android:title="My Profile" />
+        <item android:id="@+id/nav_call" android:icon="@mipmap/ic_call"
+            android:title="Call Us" />
+        <item android:id="@+id/nav_terms" android:icon="@mipmap/ic_feedback"
+            android:title="Terms and Conditions" />
+    </group>
+
+   <!-- <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@mipmap/ic_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_Feedback" android:icon="@mipmap/ic_feedback"
+                android:title="Feedback" />
+        </menu>
+    </item>-->
+
+</menu>

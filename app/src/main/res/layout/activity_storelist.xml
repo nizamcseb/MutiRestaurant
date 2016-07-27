@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout21"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_store"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txtstore_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:text="SHKJGDASGDF"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/Distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:singleLine="true"
+                android:text="Km"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12dp" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtstore_loca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="1dp"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+
+                android:text="SDFKJSAHD"
+                android:textColor="#000000"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+
+            <LinearLayout
+                android:id="@+id/pickdatetime1"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:orientation="vertical"
+                android:visibility="gone"
+
+                >
+
+
+                <TextView
+                    android:id="@+id/placeref"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="#000000"
+                    android:textSize="14dp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/latTV"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="#000000"
+                    android:textSize="14dp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/lngTV"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="#000000"
+                    android:textSize="14dp"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/upview"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+
+        android:background="#d3d3d3" />
+
+</LinearLayout>
+
+
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" android:padding="10dp">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:id="@+id/v1" android:layout_marginBottom="2dp" android:background="@drawable/listview_border" >
+
+            <TextView
+                android:id="@+id/txtstore_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black" android:textSize="20dp" android:textAllCaps="true" android:layout_gravity="center"
+                android:text="Royal"  android:layout_marginBottom="10dp"/>
+            <TextView
+                android:id="@+id/txtstore_loca"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"  android:textColor="@color/black" android:textSize="20dp" android:textAllCaps="true" android:layout_gravity="center"
+                android:text="Royal"  android:layout_marginBottom="3dp"/>
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>-->
